@@ -2,22 +2,27 @@ import React from 'react';
 import me1 from '../assets/images/me1.png';
 import { Link } from "react-router-dom";
 
-
+// condition ? true : false
+// if (condition){
+//    true
+// } else {
+//    false    
+// }
 
 function Home() {
     return (
-        <div className="md:flex justify-between">
+        <div className="flex justify-between sm:flex-row flex-col-reverse">
             <div className="mb-12 md:w1/2 m-auto">
                 <div>
-                    <div className="text-3xl font-bold md:text-5xl font-extrabold pb-8">
+                    <div className="text-3xl font-bold mt-6 md:text-5xl font-extrabold pb-8">
                         <div className="flex justify-between items-center pb-4">
 
                         <p>Hi! I Am </p>
-                        <p className="bg-blue-600 p-4 rounded-full text-lg text-white font-semibold">Frontend Developer</p>
+                        <p className="bg-blue-600  rounded-full text-lg text-white font-semibold p-4">Frontend Developer</p>
                         </div>
                         <p>Olamide Akinyemi</p>
                     </div>
-                    <p className="md:text-sm font-normal w-96">Implementing designs for over <span className="text-base font-semibold">1 year</span> as a frontend developer. My top priority are to gain detailed instructions for a project, implement the design and functionalities as precisely as possible, network with like-minded people, and create exciting things with them that will encourage knowledge sharing and receiving.</p>
+                    <p className="w-80 md:text-sm font-normal w-96">Implementing designs for over <span className="text-base font-semibold">1 year</span> as a frontend developer. My top priority are to gain detailed instructions for a project, implement the design and functionalities as precisely as possible, network with like-minded people, and create exciting things with them that will encourage knowledge sharing and receiving.</p>
                     <div className="flex mt-16 text-sm md:text-base font-bold">
                         <Link to="/contact" className="mr-6 bg-orange-600 text-white py-4 px-12 mr-12">Contact</Link>
                         <div className="flex justify-center items-center">
@@ -38,7 +43,7 @@ function Home() {
                     </div>
                     <div className="flex items-center justify-between py-6">
                         <div>
-                            <p className="text-xl font-semibold" d>50</p>
+                            <p className="text-xl font-semibold">50</p>
                             <p className="text-sm">Projects Done</p>
                         </div>
                         <div>
@@ -48,7 +53,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="md:w-1/2 h-screen overflow-hidden">
+            <div className="h-1/2 md:w-1/2 h-screen overflow-hidden">
                 <img src={me1} />
             </div>
 

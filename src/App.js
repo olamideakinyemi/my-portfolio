@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-    <div>
+    <div className="font-poppins">
       <Routes>
         <Route  path="/"  element={( <Home />)} /> 
         <Route path="/contact" element={( <Contact />)} />

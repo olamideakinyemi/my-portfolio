@@ -1,16 +1,18 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
-import { Link } from "react-router-dom";
+import { NavLink, Router, useLocation } from "react-router-dom";
 
 
 
 
 
 function Navbar() {
+  const location = useLocation()
   const styles = {
     className: 'px-8 hover:text-orange-600',
     activeClassName: 'text-orange-600',
   }
+
 
   const links = [
     {
@@ -36,20 +38,22 @@ function Navbar() {
     },
 
   ]
+  //  console.log(location)
   return (
-    <nav className="flex items-center border-b pb-4  px-12 py-6">
-      <div className="w-60">
+    <nav className="flex items-center border-b pb-4 md:px-12 py-6 font-poppins">
+      <div className="md:w-60">
         <img src={logo} />
       </div>
-      <div className="flex m-auto text-sm font-semibold justify-between">
-        {links.map(link => (<Link key={link.id}
-          className={link.className}
-          activeClassName={link.activeClassName}
+      <div className="flex m-auto text-sm font-bold justify-between">
+        {links.map(link => (<NavLink key={link.id}
+          className={`${link.className} 
+          ${link.to === location.pathname ? link.activeClassName : ''}`}
           to={link.to}>{link.name}
-        </Link>))}
+        </NavLink>))}
       </div>
     </nav>
   );
 }
 
 export default Navbar;
+
