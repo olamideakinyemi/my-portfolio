@@ -38,7 +38,7 @@ function Navbar() {
     },
 
   ]
-  //  console.log(location)
+ 
   return (
     <nav className="flex items-center border-b pb-4 md:px-12 py-6 font-poppins">
       <div className="md:w-60">
