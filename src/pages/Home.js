@@ -21,8 +21,8 @@ function Home() {
                         </div>
                         <p>Olamide Akinyemi</p>
                     </div>
-                    <div className="xl:w-96">
-                        <p className="text-sm xl:text-sm md:text-xl font-normal leading-6">Implementing designs for over
+                    <div className="">
+                        <p className="text-sm xl:text-sm md:text-xl font-normal leading-7">Implementing designs for over
                         <span className="text-base font-semibold"> 1 year </span>
                     as a frontend developer. My top priority are to gain detailed
                     instructions for a project,
