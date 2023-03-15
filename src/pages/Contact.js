@@ -46,22 +46,22 @@ function Contact() {
                 <form onSubmit={validateUser} ref={textInput}>
                     <div className="w-full sm:flex">
                         <div className="w-full relative mb-12 sm:mr-20">
-                            <input type="text" id="floating_filled" className="text-black pt-5 w-40 outline-none text-sm border-0 border-b-2 border-gray-300 focus:w-full transition-all ease-in focus:ring-0 focus:border-blue-500 peer" placeholder=" " />
+                            <input type="text" id="floating_filled" className="text-black pt-5 w-40 outline-none text-sm border-0 border-b border-gray-300 focus:w-full transition-all ease-in focus:ring-0 focus:border-blue-500 peer" placeholder=" " />
                             <label htmlFor="floating_filled" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 top-0 z-10 origin-[0] left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Enter your name</label>
                             <ValidationError prefix="Name" field="name" errors={state.errors} />
                         </div>
                         <div className="relative w-full">
-                            <input type="text" id="floating_filled" className="pt-5 text-black w-40 outline-none text-sm border-0 border-b-2 border-gray-300 focus:w-full transition-all ease-in focus:ring-0 focus:border-blue-500 peer" placeholder=" " />
+                            <input type="text" id="floating_filled" className="pt-5 text-black w-40 outline-none text-sm border-0 border-b border-gray-300 focus:w-full transition-all ease-in focus:ring-0 focus:border-blue-500 peer" placeholder=" " />
                             <label htmlFor="floating_filled" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 top-0 z-10 origin-[0] left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Enter your email</label>
                             <ValidationError className="text-red-600 mt-2" field="email" prefix="Email" errors={state.errors} />
                         </div>
                     </div>
-                    <div className="mt-12 text-sm flex flex-col">
-                        <label htmlFor="message" className="text-gray-400">Enter your message here...</label>
-                        <textarea name="message" type="text" className="border-b border-b-gray-500 outline-none mt-2 text-black" placeholder="(ex. Hi How soon would you be available to discuss an open role?)." required="" />
+                    <div className="mt-12 relative text-sm flex flex-col">
+                        <textarea type="text" id="floating_filled" className="absolute pt-5 text-black w-full outline-none text-sm border-0 border-b border-gray-300 focus:ring-0 focus:border-blue-500 peer" placeholder="(ex. Hi How soon would you be available to discuss an open role?)." required/>
+                        <label htmlFor="floating_filled" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 top-0 z-10 origin-[0] left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Enter your message here...</label>
                         <ValidationError prefix="Message" field="message" errors={state.errors} />
                     </div>
-                    <div className="mt-16 w-48 m-auto">
+                    <div className="mt-32 w-48 m-auto">
                         <button type="submit" disabled={state.submitting} className="w-48 h-12 rounded-lg text-black border border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-orange-600 duration-300 hover:text-white hover:border-0 outline-none motion-safe:animate-bounce">Go Ahead</button>
                         <ValidationError errors={state.errors} />
                     </div>
@@ -78,8 +78,8 @@ export default Contact;
 
 //focus:-translate-y-2.5 transition-all ease-in
 
-// <input type="name" name="name" className="border-b border-b-gray-500 text-black outline-none w-40 focus:w-full transition-all ease-in relative z-20 bg-transparent  focus:ring-0 focus:border-blue-600 peer required />
-// <label htmlFor="name" className="text-gray-400 absolute top-0 sm:absolute left-0 focus:top-0">Enter your name</label>
+{/* <label htmlFor="message" className="text-gray-400 focus:text-blue-500">Enter your message here...</label>
+<textarea name="message" type="text" className="border-b border-b-gray-500 outline-none mt-2 text-black" placeholder="(ex. Hi How soon would you be available to discuss an open role?)." required="" /> */}
 
 
 {/*  */ }
