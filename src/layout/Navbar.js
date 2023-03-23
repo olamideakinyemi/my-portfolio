@@ -1,5 +1,5 @@
 import logo from '../assets/images/logo.png';
-import { NavLink, Router, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 
 
@@ -42,7 +42,7 @@ function Navbar() {
   return (
     <nav className="flex items-center border-b pb-4 md:px-12 py-6 font-poppins">
       <div className="md:w-60">
-        <img src={logo} />
+        <img alt="logo" src={logo} />
       </div>
       <div className="flex m-auto text-sm font-bold justify-between">
         {links.map(link => (<NavLink key={link.id}
