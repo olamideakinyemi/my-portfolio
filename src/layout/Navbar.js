@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../assets/images/logo.png';
 import { NavLink, Router, useLocation } from "react-router-dom";
 
@@ -38,6 +37,7 @@ function Navbar() {
     },
 
   ]
+
  
   return (
     <nav className="flex items-center border-b pb-4 md:px-12 py-6 font-poppins">

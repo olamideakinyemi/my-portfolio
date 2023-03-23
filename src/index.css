@@ -1,4 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.google.com/specimen/Oswald");
+
+
+@layer base{
+    .text-stroke{
+      color: transparent;
+      text-shadow: none;
+      -webkit-text-stroke: 1px #2563EB;
+    }
+
+    .card{
+        box-shadow: 0 20px 40px rgba(0,0,0,.1)
+    }
+    .card.todolux:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(254,215,0) 487.91%);
+    }
+    .card.form:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(250,122,122) 487.91%);
+    }
+}
