@@ -61,7 +61,7 @@ function Home() {
                 </div>
             </div>
             <div className="w-screen overflow-hidden">
-                <img alt="my picture" src={me1} />
+                <img alt="a dark person" src={me1} />
             </div>
 
         </div>
