@@ -55,7 +55,7 @@ function Home() {
                         </div>
                         <div>
                             <p className="text-xl font-semibold">Featured</p>
-                            <p className="text-sm">1</p>
+                            <p className="text-sm">Lorem Ipsum</p>
                         </div>
                     </div>
                     <div className="mt-32 text-gray-600 text-center">
