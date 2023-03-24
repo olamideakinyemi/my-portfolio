@@ -1,7 +1,6 @@
 import React from 'react';
 import Goback from '../goBackLink/Goback';
 import Hngcards from '../Cards/hngcards/Hngcards';
-import { Link } from 'react-router-dom';
 
 
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Featured from "../components/Cards/Featured";
 import Internship from "../components/Cards/Internships";
 
