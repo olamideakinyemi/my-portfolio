@@ -15,19 +15,19 @@ function Projects() {
                     </h1>
                 </div>
                 <div className="text-white mt-8 sm:text-white">
-                    <Link to="/" className="border border-orange-500 px-6 py-4 bg-orange-500">
-                        Download Resume
-                   </Link>
+                    <a href="/Resume.pdf" className="border border-orange-500 px-6 py-4 bg-orange-500" target="_blank">
+                        View Resume
+                   </a>
                 </div>
             </div>
             <div>
                 <Featured />
             </div>
             <div className="mt-20">
-            <p className="text-stroke text-7xl font-bold">Internship</p>
-            <div>
-                <Internship />
-            </div>
+                <p className="text-stroke text-7xl font-bold">Internship</p>
+                <div>
+                    <Internship />
+                </div>
             </div>
         </div>
     );

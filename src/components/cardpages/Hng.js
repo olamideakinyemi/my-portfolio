@@ -13,9 +13,9 @@ function Hng() {
                 </div>
             <div className="items-center text-white mt-6 text-white sm:flex justify-between ">
                         <p className="text-stroke text-7xl font-bold mb-8"> HNG/Zuri </p>
-                        <Link to="/public/Zuriboard.pdf" className="border border-orange-500 px-6 py-4 bg-orange-500">
+                        <a href="/ZuriBoard.pdf" className="border border-orange-500 px-6 py-4 bg-orange-500" target="_blank">
                         View Certificate
-                   </Link>
+                   </a>
                     </div>
             <div className="md:w-full xl:w-1/2">
                 <div className="mt-12">
