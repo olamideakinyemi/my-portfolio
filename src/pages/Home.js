@@ -45,17 +45,17 @@ function Home() {
                 </div>
                 <div className="mt-12">
                     <div>
-                        <p className="text-xl font-semibold">+24</p>
+                        <p className="text-xl font-semibold">+2</p>
                         <p className="text-sm">Clients on work</p>
                     </div>
                     <div className="flex items-center mt-8">
                         <div className=" mr-24 sm:mr-52">
-                            <p className="text-xl font-semibold">50</p>
+                            <p className="text-xl font-semibold">3</p>
                             <p className="text-sm">Projects Done</p>
                         </div>
                         <div>
                             <p className="text-xl font-semibold">Featured</p>
-                            <p className="text-sm">Lorem ipsum</p>
+                            <p className="text-sm">1</p>
                         </div>
                     </div>
                     <div className="mt-32 text-gray-600 text-center">
