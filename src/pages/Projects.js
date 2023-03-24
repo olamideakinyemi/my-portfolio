@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Cards from "../components/Cards";
+import Featured from "../components/Cards/Featured";
+import Internship from "../components/Cards/Internship";
 
 
 function Projects() {
@@ -9,8 +10,8 @@ function Projects() {
             <div className="sm:flex justify-between">
                 <div>
                     <h1 className="text-7xl font-bold text-blue-500">
-                        Projects <br />
-                        <span className="text-stroke">Display</span>
+                        Featured <br />
+                        <span className="text-stroke">Projects</span>
                     </h1>
                 </div>
                 <div className="text-white mt-8 sm:text-white">
@@ -20,9 +21,13 @@ function Projects() {
                 </div>
             </div>
             <div>
-                <Cards />
+                <Featured />
             </div>
+            <div className="mt-20">
+            <p className="text-stroke text-7xl font-bold">Internship</p>
             <div>
+                <Internship />
+            </div>
             </div>
         </div>
     );
