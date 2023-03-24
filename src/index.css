@@ -17,13 +17,22 @@
     .card.todolux:hover{
         background: linear-gradient(49.37deg,#fff 3.41%,rgba(254,215,0) 487.91%);
     }
-    .card.form:hover{
-        background: linear-gradient(49.37deg,#fff 3.41%,rgba(250,122,122) 487.91%);
+    .card.hng:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(250,159,166) 487.91%);
     }
     .card.todolist:hover{
         background: linear-gradient(49.37deg,#fff 3.41%,rgba(59,130,246) 487.91%);
     }
-    .card.dollop:hover{
-        background: linear-gradient(49.37deg,#fff 3.41%,rgba(123,124,144) 487.91%);
+    .card.zuri:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(232,51,43) 487.91%);
+    }
+    .card.regform:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(250,122,122) 487.91%);
+    }
+    .card.hngwebsite:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(17,17,17) 487.91%);
+    }
+    .card.calculator:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(128,0,127) 487.91%);
     }
 }
