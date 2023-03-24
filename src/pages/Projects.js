@@ -10,8 +10,8 @@ function Projects() {
             <div className="sm:flex justify-between">
                 <div>
                     <h1 className="text-7xl font-bold text-blue-500">
-                        Featured <br />
-                        <span className="text-stroke">Projects</span>
+                        Projects <br />
+                        <span className="text-stroke">Showcase</span>
                     </h1>
                 </div>
                 <div className="text-white mt-8 sm:text-white">
