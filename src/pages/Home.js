@@ -58,6 +58,11 @@ function Home() {
                             <p className="text-sm">Lorem ipsum</p>
                         </div>
                     </div>
+                    <div className="mt-32 text-center">
+                        <Link className="text-gray-600 text-sm" to="mailto:olamideakinyemi41@gmail.com">olamideakinyemi41@gmail.com</Link>
+                        <p className="text-gray-600 text-sm mt-2 mb-2">(+234-81-3635-4683)</p>
+                        <Link to="https://github.com/olamideakinyemi" className="text-gray-600 text-sm">Github</Link>
+                    </div>
                 </div>
             </div>
             <div className="w-screen overflow-hidden">

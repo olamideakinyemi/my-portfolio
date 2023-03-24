@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.google.com/specimen/Oswald");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
 @layer base{
@@ -19,5 +19,11 @@
     }
     .card.form:hover{
         background: linear-gradient(49.37deg,#fff 3.41%,rgba(250,122,122) 487.91%);
+    }
+    .card.todolist:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(59,130,246) 487.91%);
+    }
+    .card.dollop:hover{
+        background: linear-gradient(49.37deg,#fff 3.41%,rgba(123,124,144) 487.91%);
     }
 }
