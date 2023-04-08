@@ -49,13 +49,13 @@ function Contact() {
                             <ValidationError prefix="Name" field="name" className="text-gray-600 mt-2" errors={state.errors} />
                         </div>
                         <div className="relative w-full">
-                            <input type="text" id="floating_filled" className="pt-3 text-black w-40 outline-none text-sm border-0 border-b border-gray-300 focus:w-full transition-all ease-in focus:ring-0 focus:border-blue-500 autofill:shadow-[inset_0_0_0px_1000px_rgb(255,255,255)] peer" placeholder=" " />
+                            <input type="text" id="floating_filled" name="email" className="pt-3 text-black w-40 outline-none text-sm border-0 border-b border-gray-300 focus:w-full transition-all ease-in focus:ring-0 focus:border-blue-500 autofill:shadow-[inset_0_0_0px_1000px_rgb(255,255,255)] peer" placeholder=" " />
                             <label htmlFor="floating_filled" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 top-0 z-10 origin-[0] left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Enter your email</label>
                             <ValidationError className="text-red-600 mt-2" field="email" prefix="Email" errors={state.errors} />
                         </div>
                     </div>
                     <div className="mt-12 relative text-sm flex flex-col">
-                        <textarea type="text" id="floating_filled" className="absolute pt-6 text-black w-full h-12 outline-none text-sm border-0 border-b border-gray-300 focus:ring-0 focus:border-blue-500 autofill:shadow-[inset_0_0_0px_1000px_rgb(255,255,255)] peer" placeholder="(ex. Hi How soon would you be available to discuss an open role?)." />
+                        <textarea type="text" id="floating_filled" name="message" className="absolute pt-6 text-black w-full h-12 outline-none text-sm border-0 border-b border-gray-300 focus:ring-0 focus:border-blue-500 autofill:shadow-[inset_0_0_0px_1000px_rgb(255,255,255)] peer" placeholder="(ex. Hi How soon would you be available to discuss an open role?)." />
                         <label htmlFor="floating_filled" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 top-0 z-10 origin-[0] left-0 peer-focus:text-blue-500 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Enter your message here...</label>
                         <ValidationError prefix="Message" field="message" errors={state.errors} />
                     </div>
