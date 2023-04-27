@@ -61,7 +61,7 @@ function Contact() {
                     </div>
                     <div className="mt-32 w-48 m-auto">
                         <button type="submit" disabled={state.submitting} className="w-48 h-12 rounded-lg text-black border border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-orange-600 duration-300 hover:text-white hover:border-0 outline-none motion-safe:animate-bounce">Go Ahead</button>
-                        <ValidationError errors={state.errors} />
+                        <ValidationError error={state.errors} />
                     </div>
                 </form>
             </div>

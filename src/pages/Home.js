@@ -2,12 +2,6 @@ import React from 'react';
 import me1 from '../assets/images/me1.png';
 import { Link } from "react-router-dom";
 
-// condition ? true : false
-// if (condition){
-//    true
-// } else {
-//    false    
-// }
 
 function Home() {
     return (
