@@ -24,21 +24,6 @@ function Featured() {
                         </div>
                    </div>
                </Link>
-               <Link to="/projects/zuri" className="card zuri rounded-xl h-72 transform hover:-translate-y-4 duration-500 pt-6 pl-6 cursor-pointer relative">
-                   <h3 className="font-semibold text-3xl text-blue-600 relative z-20">
-                       Zuri landing page
-                   </h3>
-                   <div className="flex items-center flex-wrap xl:7/12 z-20 relative">
-                       <div className="px-2 h-5 flex items-center rounded-full mt-2 mr-2 bg-orange-700">
-                           <p className="text-white text-sm">web app</p>
-                       </div>
-                   </div>
-                   <div className="absolute bottom-0 right-0 w-56 rounded-full mb-2 mr-2">
-                        <div className="relative w-full">
-                        <img aria-hidden="true" alt="dollop" src={zuri} className="w-full top-0 left-0 rounded-lg"/>
-                        </div>
-                   </div>
-               </Link>
                <Link to="/projects/todolist" className="card todolist rounded-xl h-72 transform hover:-translate-y-4 duration-500 pt-6 pl-6 cursor-pointer relative">
                    <h3 className="font-semibold text-3xl text-blue-600 relative z-20">
                       ToDoList React
